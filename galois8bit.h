@@ -4,12 +4,12 @@
 typedef unsigned char UInt8_t;
 
 /** 
- * galoisAdd - 在迦罗瓦域中计算并返回A,B之和
- * galoisSub - 在迦罗瓦域中计算并返回A,B之差
- * galoisMul - 在迦罗瓦域中计算并返回A,B之积
- * galoisDiv - 在迦罗瓦域中计算并返回A,B之商
- * galoisPow - 在迦罗瓦域中计算并返回A的B次方
- * galoisInv - 在迦罗瓦域中计算并返回A的倒数
+ * galoisAdd - 鍦ㄨ喀缃楃摝鍩熶腑璁＄畻骞惰繑鍥濧,B涔嬪拰
+ * galoisSub - 鍦ㄨ喀缃楃摝鍩熶腑璁＄畻骞惰繑鍥濧,B涔嬪樊
+ * galoisMul - 鍦ㄨ喀缃楃摝鍩熶腑璁＄畻骞惰繑鍥濧,B涔嬬Н
+ * galoisDiv - 鍦ㄨ喀缃楃摝鍩熶腑璁＄畻骞惰繑鍥濧,B涔嬪晢
+ * galoisPow - 鍦ㄨ喀缃楃摝鍩熶腑璁＄畻骞惰繑鍥濧鐨凚娆℃柟
+ * galoisInv - 鍦ㄨ喀缃楃摝鍩熶腑璁＄畻骞惰繑鍥濧鐨勫�掓暟
  */
 UInt8_t galoisAdd (UInt8_t A, UInt8_t B);
 UInt8_t galoisSub (UInt8_t A, UInt8_t B);

@@ -11,12 +11,12 @@ typedef struct Matrix {
 } matrix_t;
 
 /** 
- * matrixAdd	- ������������֮�ͣ����ؼӺͺ�ľ���
- * matrixSub	- ������������֮����������ľ���
- * matrixMul	- ��������������ˣ�������˺�ľ���
- * matrixNumMul - ������󱶳ˣ����ر��˺�ľ���
- * matrixTrans	- �������ת�ã�����ת�ú�ľ���
- * matrixGauss	- ��˹Լ����ȥ����������󣬷��������
+ * matrixAdd	- 计算两个矩阵之和，返回加和后的矩阵。
+ * matrixSub	- 计算两个矩阵之差，返回相减后的矩阵。
+ * matrixMul	- 计算两个矩阵相乘，返回相乘后的矩阵
+ * matrixNumMul - 计算矩阵倍乘，返回倍乘后的矩阵。
+ * matrixTrans	- 计算矩阵转置，返回转置后的矩阵。
+ * matrixGauss	- 高斯约旦消去法计算逆矩阵，返回逆矩阵。
  */
 matrix_t matrixAdd		(matrix_t *A, matrix_t *B);
 matrix_t matrixSub		(matrix_t *A, matrix_t *B);

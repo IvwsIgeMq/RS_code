@@ -9,10 +9,12 @@ typedef struct _context {
 } Context;
 
 /** 
- * encodeFile - 将context所指定的文件，分割成n块，并编码出m个冗余块
- * decodeFile - 在当前目录下寻找context制定文件的分块，并求出丢失块
+ * encodeFile - 灏哻ontext鎵�鎸囧畾鐨勬枃浠讹紝鍒嗗壊鎴恘鍧楋紝骞剁紪鐮佸嚭m涓啑浣欏潡
+ * decodeFile - 鍦ㄥ綋鍓嶇洰褰曚笅瀵绘壘context鍒跺畾鏂囦欢鐨勫垎鍧楋紝骞舵眰鍑轰涪澶卞潡
  */
 void encodeFile (const Context *context, int n, int m);
 void decodeFile (const Context *context, int n, int m);
+void encodeBuff(char * buff ,uint32_t len, int n,int m );
+void decodeBuff(char * buff ,uint32_t len, int n,int m );
 
 #endif
